@@ -1,17 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// 主程序
+// import App from './App';
+// 首页
+import Home from './components/home'
+// 积分
+import Integral from './components/integral'
+// 积分详情
+import IntegralDetail from './components/integralDetail'
+// 路由表
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <React.Fragment>
+      <Switch>
+        <Route exact path="/" component={Home}></Route>
+        <Route path="/integral" component={Integral}></Route>
+        <Route path="/integralDetail/:id" component={IntegralDetail}></Route>
+      </Switch>
+    </React.Fragment>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

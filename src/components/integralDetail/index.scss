@@ -1,0 +1,130 @@
+
+.detail-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  background: url('/assets/integral_details_bg@2x.png') no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.detail-rule {
+  cursor: default;
+  position: absolute;
+  right: 0;
+  top: 28px;
+  width: 56px;
+  height: 17px;
+}
+.detail-title {
+  position: relative;
+  top: 15px;
+  width: 240px;
+  height: 106px;
+  margin: 0 auto;
+  background: url('/assets/integral_details_title@2x.png') no-repeat;
+  background-size: 100% 100%;
+  margin-top: 16px;
+}
+.detail-title__number {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  font-size: 16px;
+  font-family: Helvetica;
+  color: #8777EC;
+}
+.detail-content {
+  color: #fac;
+  background-color: #fff;
+  min-height:  100vh;
+  padding: 50px 16px 0 16px;
+}
+.detail-content__item {
+  box-sizing: border-box;
+  min-height: 83px;
+  border-bottom: 1px solid #E3E3E3;
+}
+.detail-content__item-wraper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+.detail-content__title {
+  
+  font-size: 15px;
+  font-weight: 500;
+  color: #333333;
+}
+.detail-content__score {
+  font-size: 15px;
+  font-family: Helvetica;
+  color: #F28830;
+}
+.detail-content__time {
+  padding-top: 8px;
+  font-size: 13px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+.integralRuleWraper {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333;
+  padding: 0 20px;
+  margin-bottom: 14px;
+}
+.integralRuleItem{
+  display: flex;
+  justify-content: space-between;
+  line-height: 46.5px;
+  height: 46.5px;
+  border-bottom: 1px solid #E3E3E3;
+}
+.integralRuleItem:last-child{
+  border-bottom:none;
+}
+.integralRuleItemNumber {
+  font-size: 14px;
+  color: #F28830;
+}
+.integralReward {
+  display: block;
+  width: 136px;
+  height: 30px;
+  background-size: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.integralRewardWraper {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 175px;
+  color: #333;
+  padding: 24px 20px;
+}
+.integralRewardIcon {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  bottom: 25px;
+  right: 25px;
+}

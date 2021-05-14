@@ -1,0 +1,55 @@
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  background: url('/assets/integral_bg@2x.png') no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 16px 20px 26px 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.integralRuleWraper {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333;
+  padding: 0 20px;
+  margin-bottom: 14px;
+}
+.integralRuleItem{
+  display: flex;
+  justify-content: space-between;
+  line-height: 46.5px;
+  height: 46.5px;
+  border-bottom: 1px solid #E3E3E3;
+}
+.integralRuleItem:last-child{
+  border-bottom:none;
+}
+.integralRuleItemNumber {
+  font-size: 14px;
+  color: #F28830;
+}
+.integralReward {
+  display: block;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.integralRewardWraper {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 175px;
+  color: #333;
+  padding: 24px 20px;
+}
+.integralRewardIcon {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  bottom: 25px;
+  right: 25px;
+}
